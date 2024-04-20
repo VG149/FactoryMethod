@@ -10,6 +10,9 @@ package factory.factory.method;
  */
 public interface IFactory    
 {        
-   void Drive(int miles);    
+   void miles(int miles); 
+   void cor(String cor);
+   void tipo(String tipo);
+   void id(int id);
 }
 

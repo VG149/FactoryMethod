@@ -9,7 +9,22 @@ package factory.factory.method;
  * @author FATEC ZONA LESTE
  */
 public class Scooter implements IFactory {
-    public void Drive(int miles) {
-        System.out.println("Drive the Scooter: " + miles + " km");
+    public void miles(int miles) {
+        System.out.println("dirija a Scooter:" + miles + " km");
+    }
+
+    @Override
+    public void cor(String cor) {
+         System.out.println("cor da Scooter: " + cor); //To change body of generated methods, choose Tools | Templates.
+   }
+
+    @Override
+    public void tipo(String tipo) {
+        System.out.println("Marca da Scooter: " + tipo); //To change body of generated methods, choose Tools | Templates.
+     }
+
+    @Override
+    public void id(int id) {
+    System.out.println("numero da SCooter: " + id); //To change body of generated methods, choose Tools | Templates.
     }
 }
